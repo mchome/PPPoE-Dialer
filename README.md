@@ -1,2 +1,2 @@
-# PPPoE-Dialer
-A PPPoE Dialer with dotras
+# PPPoE Dialer
+A CSharp PPPoE Dialer wrapper with dotras.
