@@ -47,7 +47,7 @@ namespace pppoe_dialer
 		void Btn_DialupClick(object sender, EventArgs e)
 		{
 			try {
-				string username = Username.Text.ToString();
+				string username = Username.Text.Replace("\\r","\r").Replace("\\n","\n");
 				string password = Password.Text.ToString();
 				RasDialer dialer = new RasDialer();
 				dialer.EntryName = "PPPoEDial";
